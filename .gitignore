@@ -13,3 +13,49 @@ docs/_temp/
 
 # GoodSync
 _gsdata_/
+
+# maven ignore
+target/
+*.versionsBackup
+.factorypath
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+*rebel.xml
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+.vscode
+
+# npm
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/yarn-lock.json
+/package-lock.json
+/yarn.lock
